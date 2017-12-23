@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cd1073d4-535d-4240-a9f1-ad6584e6b4d5" name="wxcms" url="http://wxcms.miaoyongqiang.xin">
+        <fileTransfer host="wxcms.miaoyongqiang.xin" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

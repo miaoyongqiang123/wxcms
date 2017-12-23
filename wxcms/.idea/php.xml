@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/workerman/gateway-worker" />
+      <path value="$PROJECT_DIR$/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/container" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/backup" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/curl" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/mail" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/loader" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/dir" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/cart" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/oss" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/cloud" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/view" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/xml" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/html" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/model" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/aliyunsms" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/qq" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/zip" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/cli" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/image" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/cache" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/cookie" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/collection" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/tool" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/str" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/unit" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/route" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/page" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/request" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/code" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/log" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/crypt" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/qrcode" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/session" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/error" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/database" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/file" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/lang" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/aliyun" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/middleware" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/validate" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/arr" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/alipay" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/rbac" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/wechat" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/framework" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/response" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/config" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/db" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/queue" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/aliyuncs/oss-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
