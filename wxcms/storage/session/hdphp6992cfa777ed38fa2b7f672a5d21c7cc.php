@@ -1,0 +1,1 @@
+a:5:{s:10:"csrf_token";s:32:"2e5ca7c20aebd4dca418ef15442a6aa3";s:4:"code";s:1:"R";s:7:"_FLASH_";a:0:{}s:2:"id";s:1:"1";s:8:"username";s:3:"myq";}
