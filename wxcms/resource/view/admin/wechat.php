@@ -24,8 +24,8 @@
 			color: #337ab7;
 		}
 	</style>
-    <meta name="csrf-token" content="{{csrf_token()}}">
-    <script>
+	<meta name="csrf-token" content="{{csrf_token()}}">
+	<script>
         window.hdjs={};
         //组件目录必须绝对路径(在网站根目录时不用设置)
         window.hdjs.base = '{{__ROOT__}}/node_modules/hdjs';
@@ -33,9 +33,9 @@
         window.hdjs.uploader = "{{u('component.upload.uploader')}}";
         //获取文件列表的后台地址
         window.hdjs.filesLists = "{{u('component.upload.filesLists')}}";
-    </script>
-    <script src="{{__ROOT__}}/node_modules/hdjs/static/requirejs/require.js"></script>
-    <script src="{{__ROOT__}}/node_modules/hdjs/static/requirejs/config.js"></script>
+	</script>
+	<script src="{{__ROOT__}}/node_modules/hdjs/static/requirejs/require.js"></script>
+	<script src="{{__ROOT__}}/node_modules/hdjs/static/requirejs/config.js"></script>
 </head>
 <body>
 <div class="container-fluid admin-top">
@@ -52,10 +52,10 @@
 						<li >
 							<a href="{{u('admin.category.index')}}" ><i class="fa fa-w fa-cubes"></i>文章系统</a>
 						</li>
-						<li>
-							<a href="{{ u('wechat.config.index')}}" ><i class="fa fa-weixin"></i> 微信功能</a>
-						</li>
 						<li class="active">
+							<a href="{{u('wechat.config.index')}}" >	<i class="fa fa-weixin"></i> 微信功能</a>
+						</li>
+						<li >
 							<a href="{{u('systems.config.index')}}" ><i class="fa fa-wrench"></i> 系统配置</a>
 						</li>
 						<li>
@@ -92,54 +92,54 @@
 			<div class="panel panel-default" id="menus">
 				<div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample2"
 					 aria-expanded="false" aria-controls="collapseExample">
-					<h4 class="panel-title">系统配置</h4>
+					<h4 class="panel-title">微信配置</h4>
 					<a class="panel-collapse" data-toggle="collapse" href="#collapseExample2" aria-expanded="true">
 						<i class="fa fa-chevron-circle-down"></i>
 					</a>
 				</div>
 				<ul class="list-group menus collapse in" id="collapseExample2">
-					<a href="{{u('systems.config.index')}}" class="list-group-item">
-						<i class="fa fa-cog fa-fw" aria-hidden="true"></i>
+					<a href="{{u('wechat.config.index')}}" class="list-group-item">
+<!--						<i class="fa fa-cog fa-fw" aria-hidden="true"></i>-->
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
 						<span class="pull-right" href=""></span>
-						站点配置
+						微信连接
 					</a>
 				</ul>
-                <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample3"
-                     aria-expanded="false" aria-controls="collapseExample">
-                    <h4 class="panel-title">数据备份</h4>
-                    <a class="panel-collapse" data-toggle="collapse" href="#collapseExample3" aria-expanded="true">
-                        <i class="fa fa-chevron-circle-down"></i>
-                    </a>
-                </div>
-                <ul class="list-group menus collapse in" id="collapseExample3">
-                    <a href="{{u('systems.backup.index')}}" class="list-group-item">
-                        <i class="fa fa-files-o"></i>
-                        <span class="pull-right" href="{{u('systems.backup.index')}}"></span>
-                        备份列表
-                    </a>
-                    <a href="{{u('systems.backup.post')}}" class="list-group-item">
-                        <i class="" aria-hidden="true"></i>
-                        <i class="fa fa-clone"></i>
+				<div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample"
+					 aria-expanded="false" aria-controls="collapseExample">
+					<h4 class="panel-title">消息管理</h4>
+					<a class="panel-collapse" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+						<i class="fa fa-chevron-circle-down"></i>
+					</a>
+				</div>
+				<ul class="list-group menus collapse in" id="collapseExample">
+					<a href="{{u('wechat.message.index')}}" class="list-group-item">
+                        <i class="fa fa-w fa-comments-o"></i>
+						<span class="pull-right" href=""></span>
+						默认消息
+					</a>
+					<a href="{{u('system.backup.post')}}" class="list-group-item">
+                        <i class="fa fa-reply"></i>
                         <span class="pull-right" href=""></span>
-                        执行备份
-                    </a>
-                </ul>
+						消息回复
+					</a>
+				</ul>
 
 			</div>
 		</div>
 		<!--右侧主体区域部分 start-->
 		<div class="col-xs-12 col-sm-9 col-lg-10">
 			<!-- TAB NAVIGATION -->
-            <blade name="content"/>
+			<blade name="content"/>
 		</div>
 	</div>
 	<!--右侧主体区域部分结束 end-->
 </div>
 </div>
 <div class="master-footer" style="margin-top: 150px">
-	<a href="">{{v('system.title')}}</a>
+	<a href="http://www.wubin.pro">{{v('system.title')}}</a>
 	<br>
-    {{v('system.icp')}} -- {{v('system.description')}} -- {{v('system.tel')}}
+	{{v('system.icp')}} -- {{v('system.description')}} -- {{v('system.tel')}}
 </div>
 </body>
 </html>

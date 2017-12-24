@@ -16,7 +16,8 @@ class Config extends Model
 	protected $timestamps = true;
 
 	/**
-	 * 配置文件修改并保存
+	 * 配置站点文件修改并保存
+	 *
 	 * @param $post 要保存的数据
 	 *
 	 * @return array 提示消息
@@ -24,7 +25,7 @@ class Config extends Model
 	 */
 	public function post ( $post )
 	{
-		$model                = Config::find ( 1 ) ? : new Config();
+		$model = Config::find ( 1 ) ? : new Config();
 		//p ($model); die;
 		//把数据转成jeson格式，并存入数据表
 		$model->system_config = json_encode ( $post , JSON_UNESCAPED_UNICODE );
@@ -36,4 +37,45 @@ class Config extends Model
 		//$modle->save ( $post );
 
 	}
+
+	/**
+	 * 保存微信配置项数据
+	 *
+	 * @param $post 要保存的post数据
+	 *
+	 * @return array 提示消息
+	 * @throws \Exception
+	 */
+	public function postWechat ( $post )
+	{
+		//加载配置项数据
+		$model = Config::find ( 1 ) ? : new static();
+		//把提交上来的数据保存到微信配置项字段中，并不允许编码
+		$model->wechat_config = json_encode ( $post , JSON_UNESCAPED_UNICODE );
+		//执行保存
+		$model->save ();
+
+		//返回成功提示消息
+		return [ 'valid' => 1 , 'msg' => '保存成功' ];
+	}
+
+	/**
+	 * 添加微信回复消息数据
+	 * @param $post post数据
+	 *
+	 * @return array 提示消息
+	 * @throws \Exception
+	 */
+	public function postWechatResponse ( $post )
+	{
+		$model = Config::find ( 1 ) ? : new static();
+		//把post数据转成json格式，并且不编码
+		$model->wechat_response = json_encode ( $post , JSON_UNESCAPED_UNICODE );
+		//保存post数据
+		$model->save ();
+		//提示消息
+		return ['valid'=>1,'msg'=>'添加成功'];
+	}
+
+
 }

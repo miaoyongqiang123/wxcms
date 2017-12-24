@@ -53,7 +53,7 @@
                             <a href="{{u('admin.category.index')}}" ><i class="fa fa-w fa-cubes"></i>文章系统</a>
                         </li>
                         <li>
-                            <a href="" ><i class="fa fa-w fa-comments-o"></i> 微信功能</a>
+                            <a href="{{u('wechat.config.index')}}" ><i class="fa fa-weixin"></i> 微信功能</a>
                         </li>
                         <li>
                             <a href="{{u('systems.config.index')}}" ><i class="fa fa-wrench"></i> 系统配置</a>
